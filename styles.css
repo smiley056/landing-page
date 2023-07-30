@@ -10,7 +10,7 @@ header {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 35px 35px 35px;
 }
 
 header .up {
@@ -55,6 +55,7 @@ button {
     border-radius: 15px;
     color: #e5e7eb;
     box-shadow: none;
+    border: none;
 }
 
 .down {
@@ -65,21 +66,10 @@ button {
 }
 
 .right-side img{
-    width: 572px;
+    width: 410px;
     height: 300px;
 }
 
-.right-side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 ;
-}
-
-.left-side {
-   flex: 1;
-   /*max-width: 50%;*/
-}
 
 
 
@@ -93,25 +83,75 @@ button {
     flex-wrap: wrap;
 }
 
-main p {
+.phrase {
     text-align: center;
     font-weight: 900;
     color: #1f2937;
     font-size: 36px;
 }
 
-img {
+main img {
     width: 200px;
     height: 200px;
     padding: 0;
     margin: 0;
+    border-radius: 10%;
+    border: 5px solid #3882f6;
 }
 
-/*div {
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 15px;
     margin: 0;
-    padding: 0;
 }
-*/
-.main {
+
+.quote .temoignage {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    font-style: italic;
+    margin: 0;    
+}
+
+.quote .nom {
+    font-weight: 800;
+    text-align: end;
+    margin: 0;
+}
+
+.sign-up {
     display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 20px;
+}
+
+.sign-up button {
+    border: 2px solid;
+    padding: 10;
+    margin: 30px;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px 35px 35px;
+    margin: 0;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+figcaption {
+    text-align: center;
+    color: #1f2937;
+    font-weight: bold;
 }
